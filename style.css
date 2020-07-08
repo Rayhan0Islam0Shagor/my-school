@@ -1,4 +1,6 @@
-body{
+*{
+    margin: 0;
+    padding: 0;
     font-family: 'Poppins', sans-serif;
 }
 .top{
@@ -98,17 +100,25 @@ h1 span{
     margin-bottom: 50px;
     font-weight: 900;
 }
+#courses{
+padding: 30px 0px;
+}
+.title h1{
+    font-weight: 900;
+    font-size: 34px;
+    text-align: center;
+    color: #372e5a;
+    margin-bottom: 50px;
+    margin-top: 0;
+}
 .card{
-    border-radius: 20px;
-    border: none;
     box-shadow: 5px 5px 30px lightgray;
+    border: none;
+    border-radius: 10px;
     overflow: hidden;
-    cursor: pointer;
 }
 .card img{
-    width: 300px;
-    margin: 20px 10px;
-    border-radius: 5px;
+    padding: 20px 20px;
 }
 .card-title{
     font-family: 'Poppins', sans-serif;
@@ -123,18 +133,15 @@ h1 span{
     color: dimgray;
     margin-left: 5px;
 }
-.card-footer img{
-    width: 20px;
-    margin: 0;
-    padding-bottom: 5px;
+.left-img, .right-img{ 
+    width: 60px;
+    margin-right: 0;
 }
 .left{
     color: dimgray;
     font-weight: 600;
 }
-.right{
-    margin-left: 60px;
-    margin-right: 0;
+.right {
     color: dimgray;
     font-weight: 600;
 }
@@ -145,13 +152,8 @@ h1 span{
 .text-style3{
     font-family: 'Poppins', sans-serif;
     color: #372e5a;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
     font-weight: 900;
-}
-.testimonial{
-    font-family: 'Poppins', sans-serif;
-    color: black;
-    font-weight: 700;
 }
 .my-text p{
     color: black;
